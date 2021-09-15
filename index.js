@@ -6,7 +6,7 @@ function getUserData(){
    var senha = document.getElementById("senha").value
    
    
-   return fetch(`http://localhost/unimensagem/get.php?usuario=${usuario}&senha=${senha}`, {method: "GET",
+   fetch(`http://localhost/unimensagem/get.php?usuario=${usuario}&senha=${senha}`, {method: "GET",
    headers: {
      //"Content-Type": "application/json",
      'Access-Control-Allow-Origin:': '*'
