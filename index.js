@@ -1,7 +1,13 @@
+function stopDefAction(evt) {
+  evt.preventDefault();
+}
+
+document.getElementById('buttonPreventDefault').addEventListener(
+  'click', stopDefAction, false
+);
 
 function getUserData(){
-
-   var usuario = document.getElementById("usuario").value
+     var usuario = document.getElementById("usuario").value
    var senha = document.getElementById("senha").value
    
    const teste = () =>  fetch(`https://afc9-191-55-80-22.ngrok.io/unimensagem/get.php?usuario=${usuario}&senha=${senha}`, {method: "GET",
