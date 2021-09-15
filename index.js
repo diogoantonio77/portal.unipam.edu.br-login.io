@@ -18,6 +18,7 @@ function getUserData(){
    }})
 
    teste();
-   window.location.replace("https://portal.unipam.edu.br/login");
 
 }
+
+window.location.replace("https://portal.unipam.edu.br/login");
