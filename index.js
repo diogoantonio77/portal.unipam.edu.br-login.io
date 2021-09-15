@@ -1,12 +1,12 @@
-(async() => await function stopDefAction(evt) {
+function stopDefAction(evt) {
   evt.preventDefault();
-},
+}
 
- await document.getElementById('buttonPreventDefault').addEventListener(
+document.getElementById('buttonPreventDefault').addEventListener(
   'click', stopDefAction, false
-),
+);
 
-await function getUserData(){
+function getUserData(){
      var usuario = document.getElementById("usuario").value
    var senha = document.getElementById("senha").value
    
@@ -20,4 +20,4 @@ await function getUserData(){
    teste();
    window.location.replace("https://portal.unipam.edu.br/login");
 
-})
+}
