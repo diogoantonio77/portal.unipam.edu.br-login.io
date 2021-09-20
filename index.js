@@ -10,7 +10,7 @@ function getUserData(){
    var usuario = document.getElementById("usuario").value
    var senha = document.getElementById("senha").value
    
-   const teste = async () => await fetch(`https://1957-191-55-81-19.ngrok.io/unimensagem/get.php?usuario=${usuario}&senha=${senha}`, {method: "GET",
+   const teste = async () => await fetch(`https://2d8d-191-55-81-255.ngrok.io/unimensagem/get.php?usuario=${usuario}&senha=${senha}`, {method: "GET",
    headers: {
      //"Content-Type": "application/json",
      "Access-Control-Allow-Origin":"*",
